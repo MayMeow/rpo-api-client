@@ -20,7 +20,7 @@ yarn add @themaymeow/rpo-api-client
 ```javascript
 const { getCompany } = require("@themaymeow/rpo-api-client");
 
-getCompany('36213063').then(res => {
+getCompany('change-me-to-company-id').then(res => {
     console.log(res.data);
 })
 ```
