@@ -1,6 +1,6 @@
 {
   "name": "@themaymeow/rpo-api-client",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Client for RPO - Register pravnickych osob",
   "main": "index.js",
   "dependencies": {
