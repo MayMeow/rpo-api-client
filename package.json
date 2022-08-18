@@ -1,0 +1,25 @@
+{
+  "name": "@themaymeow/rpo-api-client",
+  "version": "1.0.1",
+  "description": "Client for RPO - Register pravnickych osob",
+  "main": "index.js",
+  "dependencies": {
+    "axios": "^0.27.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MayMeow/rpo-api-client.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MayMeow/rpo-api-client/issues"
+  },
+  "homepage": "https://github.com/MayMeow/rpo-api-client#readme",
+  "private": false
+}
