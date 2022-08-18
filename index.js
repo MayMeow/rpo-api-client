@@ -1,16 +1,10 @@
-var company = require('./src/company')
-var axios = import('axios')
+const { default: axios } = require('axios');
 
-module.exports = {
-    getCompany: function(companyID) {
+const getCompany = async(companyID) => {
+    let c = {};
 
-        var companyData = null;
-
-        axios.get("https://rpo-api.0x0.sk/api/organization/?ipo=" + companyID)
-        .then(response => (companyData = response))
-
-        company.CompanyName = companyData.name
-
-        return company
-    }
+    return axios.get("https://rpo-api.0x0.sk/api/organization/?ipo=" + companyID)
+    .catch(err => console.log(err));
 }
+
+module.exports.getCompany = getCompany;
